@@ -19,13 +19,6 @@ El objetivo del proyecto es analizar un modelo dinámico de una pesquería en la
 3. **Simulaciones**: 
    - Implementación de simulaciones numéricas para analizar el comportamiento del sistema bajo distintas condiciones de parámetros.
 
-## Estructura del Repositorio
-
-- **/src**: Contiene el código principal en Julia para la simulación del sistema y la implementación del control óptimo.
-- **/docs**: Documentación y explicaciones teóricas del proyecto.
-- **/data**: Archivos de entrada y resultados de simulaciones numéricas.
-- **README.md**: Este archivo de descripción.
-
 ## Instalación
 
 1. Clonar el repositorio:
@@ -44,7 +37,7 @@ El objetivo del proyecto es analizar un modelo dinámico de una pesquería en la
 Ejecutar el archivo principal para realizar simulaciones y visualizar los resultados:
 
 ```julia
-julia src/main.jl
+julia src/simulaciones_pesqueria.ipynb
 ```
 
 Ajusta los parámetros del modelo y del control en los archivos de configuración para personalizar las simulaciones.
@@ -58,8 +51,4 @@ Este proyecto se basa en conceptos de control óptimo aplicados a la modelación
 
 ## Contribuciones
 
-Este repositorio está abierto a contribuciones. Si deseas colaborar, por favor abre un "issue" o envía un "pull request".
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT.
+Este repositorio está abierto a contribuciones. Si desea colaborar, por favor abra un "issue" o envíe un "pull request".
